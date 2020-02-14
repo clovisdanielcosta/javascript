@@ -1,19 +1,22 @@
-/*
+
 var nome = "Clóvis Daniel";
 var idade = 47;
 var idade2 = 13;
-var frase = "Japão é o melhor time do mundo";
+//var frase = "Japão é o melhor time do mundo";
 
-alert(nome + " tem " + idade + " anos");
-alert(idade + idade2);
+console.log(nome + " tem " + idade + " anos");
+console.log(idade + idade2);
+
+// alert(nome + " tem " + idade + " anos");
+// alert(idade + idade2);
 console.log(nome);
 console.log(idade);
 console.log(frase);
 console.log(frase.replace("Japão", "Ibis"));
-alert(frase.replace("Japão", "Rede"));
-alert(frase.toUpperCase());
-alert(idade * idade2);
-*/
+// alert(frase.replace("Japão", "Rede"));
+// alert(frase.toUpperCase());
+// alert(idade * idade2);
+
 
 /*
 var lista = ["Maçã", "Pêra", "Laranja"];
@@ -28,7 +31,7 @@ lista.pop();
 console.log(lista);
 lista.pop();
 console.log(lista);
-console.log(lista[1]); 
+console.log(lista[1]);
 alert(lista[1]);
 */
 
@@ -108,9 +111,9 @@ alert(setReplace("Vai que é tua Júlio César!", "Júlio César", "Tafarel"));
 
 // var validar; ESCOPO GLOBAL DA VARIÁVEL
 function validarIdade(idade){
-    
+
     var validar; //ESCOPO LOCAL DA VARIÁVEL
-    
+
     if (idade >= 18){
         validar = true;
     }else{
@@ -120,9 +123,10 @@ function validarIdade(idade){
 }
 
 idade = prompt("Qual a sua idade?");
-alert("Validar: "+ validarIdade(idade));    
+alert("Validar: "+ validarIdade(idade));
 */
 
+/*
 //Uso de Elementos do HTML com JavaScript
 function clicou(){
     alert("Obrigado por clicar aqui.");
@@ -145,7 +149,7 @@ function trocar(elemento){
 
 function voltar(elemento){
     elemento.innerHTML = "Passe o mouse aqui.";
-}; 
+};
 
 function load(){
     alert("Página carregada.");
@@ -154,61 +158,4 @@ function load(){
 function mudar(elemento){
     console.log(elemento.value);
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+*/
